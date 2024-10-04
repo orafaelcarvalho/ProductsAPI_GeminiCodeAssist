@@ -1,0 +1,6 @@
+@ProductsAPI_GeminiCodeAssist_HostAddress = http://localhost:5043
+
+GET {{ProductsAPI_GeminiCodeAssist_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

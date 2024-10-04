@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductsAPI_GeminiCodeAssist", "ProductsAPI_GeminiCodeAssist\ProductsAPI_GeminiCodeAssist.csproj", "{3FCEE6A8-75BC-4AF2-827F-0A2DD6152BB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FCEE6A8-75BC-4AF2-827F-0A2DD6152BB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FCEE6A8-75BC-4AF2-827F-0A2DD6152BB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FCEE6A8-75BC-4AF2-827F-0A2DD6152BB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FCEE6A8-75BC-4AF2-827F-0A2DD6152BB7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D69C4A19-DD12-4E68-A806-CF56068F0CBA}
+	EndGlobalSection
+EndGlobal
