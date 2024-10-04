@@ -18,10 +18,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Folder Include="API\Controllers\" />
     <Folder Include="Application\Interfaces\" />
     <Folder Include="Application\Services\" />
@@ -30,6 +26,14 @@
     <Folder Include="Domain\Interfaces\" />
     <Folder Include="Infra\DataContext\" />
     <Folder Include="Infra\Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="*" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="*" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="*" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="*" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="*" />
   </ItemGroup>
 
 </Project>
