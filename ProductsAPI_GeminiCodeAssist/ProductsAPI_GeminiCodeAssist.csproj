@@ -8,9 +8,13 @@
 
   <ItemGroup>
     <Compile Remove="Controllers\**" />
+    <Compile Remove="Domain\Exceptions\**" />
     <Content Remove="Controllers\**" />
+    <Content Remove="Domain\Exceptions\**" />
     <EmbeddedResource Remove="Controllers\**" />
+    <EmbeddedResource Remove="Domain\Exceptions\**" />
     <None Remove="Controllers\**" />
+    <None Remove="Domain\Exceptions\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -23,7 +27,6 @@
     <Folder Include="Application\Services\" />
     <Folder Include="Domain\Entities\" />
     <Folder Include="Domain\Enums\" />
-    <Folder Include="Domain\Exceptions\" />
     <Folder Include="Domain\Interfaces\" />
     <Folder Include="Infra\DataContext\" />
     <Folder Include="Infra\Repositories\" />
